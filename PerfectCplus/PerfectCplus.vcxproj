@@ -19,7 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\include\unitApp.cpp" />
     <ClCompile Include="..\Main\main.cpp" />
+    <ClCompile Include="..\Prime\ioRedirect\ioRedirect.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\unitApp.h" />
+    <ClInclude Include="..\Prime\ioRedirect\ioRedirect.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{F993845C-D3EA-4FE0-A36C-29A5492B599C}</ProjectGuid>
@@ -92,6 +98,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>F:\projects\PerfectCplus\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

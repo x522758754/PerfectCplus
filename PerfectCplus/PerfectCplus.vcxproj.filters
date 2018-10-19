@@ -4,10 +4,33 @@
     <Filter Include="Main">
       <UniqueIdentifier>{945029eb-d580-4e10-9e01-e3960bb2bef1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Primer">
+      <UniqueIdentifier>{e2b627f6-3915-4caa-b494-f3024215b929}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Primer\ioRedirect">
+      <UniqueIdentifier>{45e92522-27fd-4e8b-9497-22b2388a22cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{99c8c370-209f-4583-94c0-2b6d9cb6e4e1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Main\main.cpp">
       <Filter>Main</Filter>
     </ClCompile>
+    <ClCompile Include="..\Prime\ioRedirect\ioRedirect.cpp">
+      <Filter>Primer\ioRedirect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\unitApp.cpp">
+      <Filter>Include</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Prime\ioRedirect\ioRedirect.h">
+      <Filter>Primer\ioRedirect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\unitApp.h">
+      <Filter>Include</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
