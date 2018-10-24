@@ -16,8 +16,8 @@ ioRedirect::~ioRedirect()
 
 void ioRedirect::run(int argc, char** argv)
 {
-	std::ifstream fin("../prime/ioRedirect/in.txt");
-	std::ofstream fout("../prime/ioRedirect/out.txt");
+	std::ifstream fin("../primer/ioRedirect/in.txt");
+	std::ofstream fout("../primer/ioRedirect/out.txt");
 
 	std::streambuf* cinbackup;
 	std::streambuf* coutbackup;

@@ -13,24 +13,51 @@
     <Filter Include="Include">
       <UniqueIdentifier>{99c8c370-209f-4583-94c0-2b6d9cb6e4e1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Primer\virtualDetail">
+      <UniqueIdentifier>{c628acda-690c-4991-8661-a1a71514ce01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Primer\inherit">
+      <UniqueIdentifier>{99dbf082-9571-470b-802b-fe9b2c47d521}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Primer\sort">
+      <UniqueIdentifier>{4261b958-20f1-4464-aa91-fc530244ca03}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Main\main.cpp">
       <Filter>Main</Filter>
     </ClCompile>
-    <ClCompile Include="..\Prime\ioRedirect\ioRedirect.cpp">
-      <Filter>Primer\ioRedirect</Filter>
-    </ClCompile>
     <ClCompile Include="..\include\unitApp.cpp">
       <Filter>Include</Filter>
     </ClCompile>
+    <ClCompile Include="..\primer\virtualDetail\virtualDetail.cpp">
+      <Filter>Primer\virtualDetail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\primer\ioRedirect\ioRedirect.cpp">
+      <Filter>Primer\ioRedirect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\primer\inherit\inherit.cpp">
+      <Filter>Primer\inherit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\primer\sort\sort.cpp">
+      <Filter>Primer\sort</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\Prime\ioRedirect\ioRedirect.h">
-      <Filter>Primer\ioRedirect</Filter>
-    </ClInclude>
     <ClInclude Include="..\include\unitApp.h">
       <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\primer\virtualDetail\virtualDetail.h">
+      <Filter>Primer\virtualDetail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\primer\ioRedirect\ioRedirect.h">
+      <Filter>Primer\ioRedirect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\primer\inherit\inherit.h">
+      <Filter>Primer\inherit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\primer\sort\sort.h">
+      <Filter>Primer\sort</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
