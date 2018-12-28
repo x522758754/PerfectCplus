@@ -89,7 +89,7 @@ class Base
 {
 public:
 	virtual void foo() { std::cout << "Call Base foo"<<std::endl; }
-
+	virtual ~Base() { std::cout << "Base" << std::endl; };
 	
 private:
 	/* Ë½ÓÐÐéº¯Êý
@@ -102,7 +102,7 @@ class Derive:public Base
 {
 public:
 	virtual void foo() { std::cout << "Call Derive foo" << std::endl; }
-
+	virtual ~Derive() { std::cout << "Derive" << std::endl; };
 private:
 	virtual void f() {}
 };

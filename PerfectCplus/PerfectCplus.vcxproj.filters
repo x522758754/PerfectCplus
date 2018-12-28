@@ -22,6 +22,9 @@
     <Filter Include="Primer\sort">
       <UniqueIdentifier>{4261b958-20f1-4464-aa91-fc530244ca03}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Primer\_200_baseKnow">
+      <UniqueIdentifier>{2cafb080-76ad-4057-96a2-9f9c1fcf5cf2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Main\main.cpp">
@@ -58,6 +61,9 @@
     </ClInclude>
     <ClInclude Include="..\primer\sort\sort.h">
       <Filter>Primer\sort</Filter>
+    </ClInclude>
+    <ClInclude Include="..\primer\_200_baseKnow\variable.h">
+      <Filter>Primer\_200_baseKnow</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

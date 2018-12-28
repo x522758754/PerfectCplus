@@ -1,4 +1,5 @@
 #include "virtualDetail.h"
+#include <vector>
 
 virtualDetail::virtualDetail()
 {

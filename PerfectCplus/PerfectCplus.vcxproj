@@ -32,6 +32,7 @@
     <ClInclude Include="..\primer\ioRedirect\ioRedirect.h" />
     <ClInclude Include="..\primer\sort\sort.h" />
     <ClInclude Include="..\primer\virtualDetail\virtualDetail.h" />
+    <ClInclude Include="..\primer\_200_baseKnow\variable.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{F993845C-D3EA-4FE0-A36C-29A5492B599C}</ProjectGuid>
