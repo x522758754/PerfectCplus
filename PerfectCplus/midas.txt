@@ -1,0 +1,26 @@
+Content-type: text/html; charset=utf-8
+{
+"ret":0,
+"balance":3989,
+"gen_balance":256,
+"first_save":0,
+"save_amt":4000,
+"gen_expire":0,
+"tss_list":
+[{
+   "innerproductid" : "1450000594-1001",
+   "begintime" : "2014-08-21 18:15:24",
+   "endtime" : "2014-09-20 18:15:24",
+   "paychan" : "iap",
+   "paysubchan" : 1,
+   "autopaychan" : "",
+   "autopaysubchan" : 0,
+   "grandtotal_opendays" : 32737,
+   "grandtotal_presentdays" : 1,
+   "first_buy_time" : "4457674-07-08 01:37",
+   "extend" : ""
+}],
+"save_sum" : 0,
+"cost_sum" : 0,
+"present_sum" : 0
+}

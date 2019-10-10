@@ -25,13 +25,16 @@
     <Filter Include="Primer\_200_baseKnow">
       <UniqueIdentifier>{2cafb080-76ad-4057-96a2-9f9c1fcf5cf2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Linked">
+      <UniqueIdentifier>{69d1fd64-3975-4b5a-989a-93ce024f7e21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Linked\cmp">
+      <UniqueIdentifier>{1b9dda65-7784-48e5-a6d1-c6152f588d8b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Main\main.cpp">
       <Filter>Main</Filter>
-    </ClCompile>
-    <ClCompile Include="..\include\unitApp.cpp">
-      <Filter>Include</Filter>
     </ClCompile>
     <ClCompile Include="..\primer\virtualDetail\virtualDetail.cpp">
       <Filter>Primer\virtualDetail</Filter>
@@ -45,11 +48,17 @@
     <ClCompile Include="..\primer\sort\sort.cpp">
       <Filter>Primer\sort</Filter>
     </ClCompile>
+    <ClCompile Include="..\include\unitApp.cpp">
+      <Filter>Include</Filter>
+    </ClCompile>
+    <ClCompile Include="Linked\LinkedNode.cpp">
+      <Filter>Linked</Filter>
+    </ClCompile>
+    <ClCompile Include="Linked\LinkedList.cpp">
+      <Filter>Linked</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\include\unitApp.h">
-      <Filter>Include</Filter>
-    </ClInclude>
     <ClInclude Include="..\primer\virtualDetail\virtualDetail.h">
       <Filter>Primer\virtualDetail</Filter>
     </ClInclude>
@@ -64,6 +73,15 @@
     </ClInclude>
     <ClInclude Include="..\primer\_200_baseKnow\variable.h">
       <Filter>Primer\_200_baseKnow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\unitApp.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Linked\LinkedNode.h">
+      <Filter>Linked</Filter>
+    </ClInclude>
+    <ClInclude Include="Linked\LinkedList.h">
+      <Filter>Linked</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
